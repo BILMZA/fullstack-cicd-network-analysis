@@ -1,5 +1,3 @@
-const fetch = require("node-fetch");
-
 async function testAPI() {
   try {
     const res = await fetch("http://localhost:5000");
